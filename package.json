@@ -1,0 +1,19 @@
+{
+  "name": "mailwave",
+  "version": "1.0.0",
+  "description": "A scalable Node.js API built with Express and Nodemailer for sending emails, with optional MongoDB integration for managing users. Ideal for developers looking to quickly implement email functionality in their applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paschal-web3/MAILWAVE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paschal-web3/MAILWAVE/issues"
+  },
+  "homepage": "https://github.com/Paschal-web3/MAILWAVE#readme"
+}
