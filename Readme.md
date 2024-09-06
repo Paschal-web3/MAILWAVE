@@ -35,7 +35,7 @@ Here’s your full **README.md** file for **MailWave** with all the information 
 
 2. Install the required dependencies:
    ```bash
-   npm install nodemon, express, nodemailer, mongoose
+   npm install nodemon, express, nodemailer, mongoose, dotenv
    ```
 
 3. Create a `.env` file and add your configuration details:
@@ -93,8 +93,8 @@ Here’s your full **README.md** file for **MailWave** with all the information 
 #### Request Body (JSON):
 ```json
 {
-  "name": "John Doe",
-  "email": "johndoe@example.com"
+  "name": "paschal",
+  "email": "paschal@gmail.com"
 }
 ```
 
@@ -105,8 +105,8 @@ Here’s your full **README.md** file for **MailWave** with all the information 
     "message": "User created successfully",
     "user": {
       "_id": "60c71b7f4f1a2b0017e0db67",
-      "name": "John Doe",
-      "email": "johndoe@example.com",
+      "name": "paschal",
+      "email": "paschal@gmail.com",
       "__v": 0
     }
   }
@@ -121,8 +121,8 @@ Here’s your full **README.md** file for **MailWave** with all the information 
 ## Project Structure
 
 ```
-MailWave/
-├── config/
+MailWave/src/
+├── db/
 │   └── db.js          # MongoDB connection setup
 ├── controllers/
 │   └── emailController.js  # Logic for sending emails
@@ -155,9 +155,7 @@ Ensure the following environment variables are set up in your `.env` file:
 - Send emails using the `/api/send-email` route.
 - Optionally, create and manage users with the `/api/users` route if MongoDB is enabled.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contributions
 
@@ -166,5 +164,4 @@ Feel free to open issues or submit pull requests to improve the project!
 ```
 
 ---
-
-Now you can simply copy this content into a `README.md` file and include it in your project. Let me know if you'd like to make any changes!
+**Note**: Make sure to replace placeholders like `your-email@gmail.com` and `your-email-password` with your actual email credentials and MongoDB connection details.
