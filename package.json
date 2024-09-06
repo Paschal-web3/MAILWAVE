@@ -1,0 +1,19 @@
+{
+    "name": "mailwave",
+    "version": "1.0.0",
+    "description": "A scalable Node.js API built with Express and Nodemailer for sending emails, with optional MongoDB integration for managing users.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": ["email", "nodejs", "express", "nodemailer", "mongodb"],
+    "author": "Ihejirika C. Paschal",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "mongoose": "^5.13.2",
+      "nodemailer": "^6.6.3"
+    }
+  }
+  
