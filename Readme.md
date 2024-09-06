@@ -29,7 +29,7 @@ Here’s your full **README.md** file for **MailWave** with all the information 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mailwave.git
+   git clone https://github.com/Paschal-web3/MAILWAVE.git
    cd mailwave
    ```
 
