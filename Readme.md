@@ -1,4 +1,4 @@
-Here’s your full **README.md** file for **MailWave** with all the information included:
+
 
 ```md
 # 🚀 MailWave: Effortless Email Delivery API
